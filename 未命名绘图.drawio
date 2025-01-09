@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.4">
+  <diagram name="第 1 页" id="3EK2jjQPrE45eBjg5TBP">
+    <mxGraphModel dx="1554" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iBtqQv1dWRpX6zKwfi3N-1" target="iBtqQv1dWRpX6zKwfi3N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-1" value="读取json文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBtqQv1dWRpX6zKwfi3N-2" target="iBtqQv1dWRpX6zKwfi3N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iBtqQv1dWRpX6zKwfi3N-2" target="iBtqQv1dWRpX6zKwfi3N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-2" value="gnd_mode ==0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-4" value="&lt;div&gt;不算ElectricField_above_lossy&lt;/div&gt;直接Er_lossy=Er_T" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iBtqQv1dWRpX6zKwfi3N-6" value="将json中的epr和sig、dt传给ElectricField_above_lossy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
